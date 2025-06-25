@@ -1026,7 +1026,7 @@ if __name__ == "__main__":
     print("Running data pipeline...")
     rolling_avg_df, df = data_pipeline()
 
-    # Train the model with TensorFlow
+    # Train the model
     model, scaler = train_model(df)
     print("Model training complete.")
 
